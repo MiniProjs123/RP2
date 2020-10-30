@@ -1,0 +1,29 @@
+2020-10-29 17:06:28.672  INFO 6506 --- [main] com.routeplanner.MainAppApplication      : Starting MainAppApplication on UNKNOWN with PID 6506 (/Users/paulbickell/Documents/Oct2020Workspace/RP2-master/target/classes started by paulbickell in /Users/paulbickell/Documents/Oct2020Workspace/RP2-master)
+2020-10-29 17:06:28.678  INFO 6506 --- [main] com.routeplanner.MainAppApplication      : No active profile set, falling back to default profiles: default
+2020-10-29 17:06:29.441  INFO 6506 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-29 17:06:29.533  INFO 6506 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77ms. Found 7 repository interfaces.
+2020-10-29 17:06:30.051  INFO 6506 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4298f42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-29 17:06:30.356  INFO 6506 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-29 17:06:30.386  INFO 6506 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-29 17:06:30.387  INFO 6506 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-10-29 17:06:30.487  INFO 6506 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-29 17:06:30.487  INFO 6506 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1749 ms
+2020-10-29 17:06:30.652  INFO 6506 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-29 17:06:31.070  INFO 6506 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-29 17:06:31.129  INFO 6506 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-10-29 17:06:31.204  INFO 6506 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.11.Final}
+2020-10-29 17:06:31.205  INFO 6506 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-10-29 17:06:31.392  INFO 6506 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-10-29 17:06:31.542  INFO 6506 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-10-29 17:06:32.650  INFO 6506 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-29 17:06:33.005  INFO 6506 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-10-29 17:06:33.452  INFO 6506 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-29 17:06:33.518  WARN 6506 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-29 17:06:33.721  INFO 6506 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-29 17:06:33.723  INFO 6506 --- [main] com.routeplanner.MainAppApplication      : Started MainAppApplication in 5.57 seconds (JVM running for 6.034)
+2020-10-29 17:06:46.343  INFO 6506 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-29 17:06:46.345  INFO 6506 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-29 17:06:46.347  INFO 6506 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-29 17:06:46.361  INFO 6506 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
